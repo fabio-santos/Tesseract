@@ -1,0 +1,9 @@
+version: "3.1"
+services:
+
+  tesseract:
+    build: ubuntu
+    container_name: tessezap
+    working_dir: /application
+    volumes:
+      - ./files:/application
